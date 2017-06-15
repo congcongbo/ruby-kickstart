@@ -9,4 +9,6 @@
 # arithmetic2(-6, -7)  # => -3.5
 
 def arithmetic2(a, b)
+  arr=[a,b].sort!
+  return 0.5*arr[0]
 end
