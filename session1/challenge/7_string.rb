@@ -7,9 +7,9 @@
 def pirates_say_arrrrrrrrr(string)
   to_return = ""
   i=0
-  while i<string.length
+  while i<string.length-1
     if string[i] == "r" || string[i] == "R"
-      to_return << string[i+1]
+      to_return << string[i+1].to_s
     end
     i+=1
   end
